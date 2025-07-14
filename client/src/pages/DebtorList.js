@@ -116,7 +116,7 @@ const DebtorList = () => {
           )}
         </div>
       ) : (
-        <>
+        <div>
           {/* 데스크톱 테이블 뷰 */}
           <div className="hidden lg:block card overflow-hidden">
             <div className="overflow-x-auto">
@@ -340,7 +340,7 @@ const DebtorList = () => {
               </div>
             ))}
           </div>
-        </>
+        </div>
       )}
 
       {/* 요약 통계 */}
