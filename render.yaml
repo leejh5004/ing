@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: debt-management
+    env: node
+    buildCommand: cd client && npm install && npm run build && cd ..
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production 
